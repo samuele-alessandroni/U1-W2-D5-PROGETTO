@@ -1,1 +1,166 @@
-/* Your styles here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary-blue: #222F3F;
+    --secondary-blue: #364759;
+    --open-shop-color: #3A7075;
+}
+
+body{
+    background-color: #E9EDEE;
+}
+
+p{
+    font-weight: 600;
+}
+
+/*------------------HEADER----------------*/
+
+header{
+    background-color: var(--primary-blue);
+    width: 100%;
+}
+
+header img{
+    width: 10%;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+/*-------------------NAV------------------*/
+
+nav{
+    background-color: var(--secondary-blue);
+    width: 100%;
+    color: white;
+    padding: 0.5em 0em 0.5em 2em;
+}
+
+nav a{
+    padding-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+/*------------------MAIN-----------------*/
+
+main{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+/*------------------SECTION ORANGE GIFT---------*/
+
+main .orange-gift{
+    background-color: #F56600;
+    color: white;
+    margin: 2em 0 2em 0;
+    padding: 0.4em 0 0.4em 0;
+}
+
+main .giftWithPack{
+    background-image: url("../images/bg-image.png");
+    width: 100%;
+    background-repeat: repeat;
+    min-height: 12em;
+    color: white;
+    padding-top: 4em;
+    line-height: 2.5em;
+}
+
+/*----------------SECTION ITEMS------------*/
+
+main .items{ 
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.11);
+    text-align: left;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    margin-top: 2em;
+}
+
+main .items .shop-link p, a{
+    display: inline-block;
+    padding: 0.7em 1em 1em 0;
+    text-decoration: none;
+}
+
+main .items .shop-link a{
+    color: var(--open-shop-color);
+    font-weight: 900;
+    font-size: small;
+}
+
+main .items .card-container img{
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.11);
+    display: inline-block;
+    background-size: cover;
+    width: 22%;
+    height: 20em;
+    border-radius: 16px;
+    margin-right: 2em;
+    
+}
+
+main .items .card-container img:last-child{
+    margin-right: 0;
+    
+}
+
+
+/*--------------SECTION GAME & SOUND---------*/
+
+main .game-sound{
+    margin: 2em 0 0 0;
+}
+
+main .game-sound img{
+    width: 100%;
+}
+
+main .game-sound div{
+    line-height: 0px;
+}
+
+main .game-sound div p, a{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+main .game-sound div a{
+    color: var(--open-shop-color);
+    font-weight: 900;
+    font-size: small;
+}
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+footer div:first-child{
+    background-color: var(--secondary-blue);
+}
+
+footer div:first-child a{
+    color: white;
+    text-decoration: underline;
+    margin-right: 0;
+}
+
+footer div:last-child{
+    background-color: var(--primary-blue);
+    padding: 3em 0 3em 0;
+}
+
+footer div:last-child img{
+    width: 10%;
+    margin: auto;
+}
